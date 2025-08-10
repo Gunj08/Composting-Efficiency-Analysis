@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Composting Efficiency Analysis</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Composting Efficiency Analysis</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#process">Process</a>
+            <a href="#data">Data</a>
+            <a href="#tips">Tips</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome</h2>
+        <p>Our project identifies the best composting conditions for faster and richer compost.</p>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process">
+        <h2>Composting Process</h2>
+        <div class="steps">
+            <div class="step">1. Waste Collection</div>
+            <div class="step">2. Layering Carbon/Nitrogen</div>
+            <div class="step">3. Moisture & Aeration</div>
+            <div class="step">4. Decomposition</div>
+            <div class="step">5. Final Compost</div>
+        </div>
+    </section>
+
+    <!-- Data Section -->
+    <section id="data">
+        <h2>Experiment Data</h2>
+        
+        <!-- Input Form -->
+        <form id="dataForm">
+            <label>Label (e.g., Day 1):</label>
+            <input type="text" id="labelInput" required>
+
+            <label>Temperature (°C):</label>
+            <input type="number" id="tempInput" step="0.1" required>
+
+            <label>Moisture (%):</label>
+            <input type="number" id="moistInput" step="0.1" required>
+
+            <button type="submit">Add Data</button>
+        </form>
+
+        <!-- Table -->
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>Label</th>
+                    <th>Temperature (°C)</th>
+                    <th>Moisture (%)</th>
+                    <th>Remove</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <!-- Chart -->
+        <canvas id="tempChart" width="400" height="200"></canvas>
+    </section>
+
+    <!-- Tips Section -->
+    <section id="tips">
+        <h2>Composting Tips</h2>
+        <ul>
+            <li>Maintain 50-60% moisture for best results.</li>
+            <li>Balance carbon-rich (brown) and nitrogen-rich (green) materials.</li>
+            <li>Turn the pile every 7-10 days.</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+    <h2>Join Us</h2>
+    <p>Want to start composting? Fill out the form below!</p>
+    <form>
+        <label>Name:</label><br>
+        <input type="text" name="name" required><br><br>
+        
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+        
+        <label>Message:</label><br>
+        <textarea name="message" required></textarea><br><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+    <footer>
+        <p>© 2025 Composting Project by Gunjan Kumari</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
