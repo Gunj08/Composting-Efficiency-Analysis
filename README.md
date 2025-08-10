@@ -64,6 +64,7 @@ Once hosted on GitHub Pages, your site will be available here:
 ---
 
 📸 Screenshot
+
 ![Composting Project](images)
 
 ---
