@@ -27,12 +27,12 @@ It also includes composting process steps and useful tips for better composting.
 ## 🚀 How to Run Locally
 1. Clone the repository:
    ```bash
-   git clone https://github.com/gunjan kumari/Composting Efficiency Analysis.git
+   git clone https://github.com/Gunjan Kumari/Composting Efficiency Analysis.git
 2. Open index.html in your browser.
 
 🌐 Live Demo
 Once hosted on GitHub Pages, your site will be available here:
-https://<your-username>.github.io/Composting Efficiency Analysis/
+https://Gunjan Kumari.github.io/Composting Efficiency Analysis/
 
 📸 Screenshot
 (Add a screenshot of your site here)
