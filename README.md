@@ -108,13 +108,10 @@ Kya tum chahogi main tumhare liye screenshot ready kar du?
 
    
 📸 Screenshot
-(Add a screenshot of your site here)
+
 
 
 ---
-
-Agar tum chaho to main is README me **screenshot section** me tumhare project ka image add karke GitHub ke liye complete bana sakta hoon.  
-Kya tum chahogi main tumhare liye screenshot ready kar du?
 
    
 2. Open index.html in your browser.
