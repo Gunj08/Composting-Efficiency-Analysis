@@ -51,7 +51,7 @@ It also includes composting process steps and useful tips for better composting.
 ## 🚀 How to Run Locally
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/Gunj08/.git]
+   https://github.com/Gunj08/.git
 2. Open index.html in your browser.
 
 ---
